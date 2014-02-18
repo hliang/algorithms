@@ -33,12 +33,14 @@ public class RemoveElement {
     }
 
     public static void main(String[] args) {
-        //int[] a = {0, 2, 2, 3, 4, 5}; 
-        int[] a = {1}; 
-        int b = 1;
+        int[] a = {0, 2, 2, 3, 2, 4, 5}; 
+        //int[] a = {1}; 
+        int b = 2;
+        System.out.println(Arrays.toString(a));
         System.out.println(removeElement(a, b));
-        System.out.println(Arrays.copyOfRange(a, 0, b));
-        int[] newArr = Arrays.copyOfRange(a, 0, b);
-        System.out.println( newArr );
+        System.out.println(Arrays.toString(a));
+        // System.out.println(Arrays.copyOfRange(a, 0, b));
+        // int[] newArr = Arrays.copyOfRange(a, 0, b);
+        // System.out.println( newArr );
     }
 }
